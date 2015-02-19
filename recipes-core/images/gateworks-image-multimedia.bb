@@ -13,6 +13,12 @@ IMAGE_INSTALL += "\
     gst-plugins-good-meta \
     gst-plugins-bad-meta \
     gst-plugins-ugly-meta \
+    gstreamer1.0-rtsp-server \
+"
+# graphics and gstreamer plugins
+IMAGE_INSTALL += "\
+    iptables \
+    lighttpd \
 "
 
 # Audio packages
